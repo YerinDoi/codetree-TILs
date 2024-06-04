@@ -4,10 +4,15 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        String c = sc.next();
-        double a = sc.nextDouble();
-        double b = sc.nextDouble();
+        char a;
+        double b, c;
 
-        System.out.printf("%s\n%.2f\n%.2f", c, a, b);
+        a = sc.next().charAt(0);
+        b = sc.nextDouble();
+        c = sc.nextDouble();
+
+        System.out.printf("%c\n%.2f\n%.2f", a, b, c);
+
+
     }
 }
