@@ -8,7 +8,6 @@ public class Main {
         int first = sc.nextInt();
         int second = sc.nextInt();
 
-        System.out.print(first);
-        System.out.print(second);
+        System.out.print(first+""+second);
     }
 }
