@@ -6,9 +6,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         sc.useDelimiter(":");
         
-        int a = sc.nextInt() + 1;
+        int a = sc.nextInt();
         int b = sc.nextInt();
 
-        System.out.printf("%d:%d", a, b);
+        System.out.printf("%d:%d", a+1, b);
     }
 }
