@@ -6,12 +6,12 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         sc.useDelimiter("\\.");
 
-        int yyyy, mm, dd;
+        int y, m, d;
 
-        yyyy = sc.nextInt();
-        mm = sc.nextInt();
-        dd = sc.nextInt();
+        y = sc.nextInt();
+        m = sc.nextInt();
+        d = sc.nextInt();
 
-        System.out.println(mm+"-"+dd+"-"+yyyy);
+        System.out.println(m+"-"+d+"-"+y);
     }
 }
