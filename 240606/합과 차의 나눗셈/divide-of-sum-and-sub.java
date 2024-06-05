@@ -8,6 +8,6 @@ public class Main {
         int a = sc.nextInt(a);
         int b = sc.nextInt(a);
 
-        System.out.println("%.2f", double(a+b)/(a-b));
+        System.out.printf("%.2f", double(a+b)/(a-b));
     }
 }
