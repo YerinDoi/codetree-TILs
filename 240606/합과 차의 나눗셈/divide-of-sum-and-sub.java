@@ -5,9 +5,9 @@ public class Main {
         // 여기에 코드를 작성해주세요.
         Scanner sc = new Scanner(System.in);
 
-        int a = sc.nextInt(a);
-        int b = sc.nextInt(a);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
 
-        System.out.printf("%.2f", double(a+b)/(a-b));
+        System.out.printf("%.2f", (float)(a+b)/(a-b));
     }
 }
