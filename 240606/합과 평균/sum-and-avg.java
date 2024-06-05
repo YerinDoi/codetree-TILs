@@ -9,6 +9,6 @@ public class Main {
         int b = sc.nextInt();
 
         System.out.println(a + b);
-        System.out.printf(".1f", (a + b)/2);        
+        System.out.printf(".1f", double(a + b)/2);        
     }
 }
