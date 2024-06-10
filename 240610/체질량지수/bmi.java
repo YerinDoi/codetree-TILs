@@ -5,12 +5,12 @@ public class Main {
         // 여기에 코드를 작성해주세요.
         Scanner sc = new Scanner(System.in);
 
-        double h, w, b;
+        int h, w;
         h = sc.nextInt();
         w = sc.nextInt();
-        b = 10000 * w / (h * h);
+        int b = 10000 * w / (h * h);
 
-        System.out.printf("%d\n", (int)b);
+        System.out.println(b);
 
         if(b>=25) {
             System.out.println("Obesity");
