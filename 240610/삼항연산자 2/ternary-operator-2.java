@@ -5,8 +5,8 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int a = sc.nextInt();
-
-        a == 1 ? t : f;
-        System.out.println(a);
+        char result = (a == 1) ? 't' : 'f';
+        
+        System.out.println(result);
     }
 }
