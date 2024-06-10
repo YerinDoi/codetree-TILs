@@ -9,7 +9,7 @@ public class Main {
         if(R >= 1.0) {
             System.out.println("High");
         }
-        esle if(R >= 0.5) {
+        else if(R >= 0.5) {
             System.out.println("Middle");
         }
         else {
