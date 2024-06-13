@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        // 여기에 코드를 작성해주세요.
+        Scanner sc = new Scanner(System.in);
+
+        int a_age = sc.nextInt();
+        char a_gender = sc.next().charAt(0);
+        int b_age = sc.nextInt();
+        char b_gender = sc.next().charAt(0);
+
+        if((a_age >= 19 || b_age >19) && (a_gender == 'M' || b_gender == 'M'))
+            System.out.println(1);
+        else
+            System.out.println(0);
+    }
+}
