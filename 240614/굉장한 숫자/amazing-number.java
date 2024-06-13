@@ -7,9 +7,6 @@ public class Main {
 
         int n = sc.nextInt();
 
-        if((n % 2 == 1 && n % 3 == 0) || (n % 2 == 0 && n % 5 == 0))
-            System.out.print("true");
-        else
-            System.out.print("false");
+        System.out.print((n % 2 == 1 && n % 3 == 0) || (n % 2 == 0 && n % 5 == 0));
     }
 }
