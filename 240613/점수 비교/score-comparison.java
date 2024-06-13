@@ -5,13 +5,15 @@ public class Main {
         // 여기에 코드를 작성해주세요.
         Scanner sc = new Scanner(System.in);
 
-        int A_math = sc.nextInt();
-        int A_english = sc.nextInt();
+        int aMath, aEng;
+        int bMath, bEng;
 
-        int B_math = sc.nextInt();
-        int B_english = sc.nextInt();
+        aMath = sc.nextInt();
+        aEng = sc.nextInt();
+        bMath = sc.nextInt();
+        bEng = sc.nextInt();
 
-        if(A_math > B_math && A_english > B_english)
+        if(aMath > bMath && aEng > bEng)
             System.out.println(1);
         else
             System.out.println(0);
