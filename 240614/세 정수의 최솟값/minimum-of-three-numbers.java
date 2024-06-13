@@ -13,7 +13,7 @@ public class Main {
             System.out.print(a);
         else if(b <= c && b <= a)
             System.out.print(b);
-        else if(c <= a && c <= b)
+        else
             System.out.print(c);
     }
 }
