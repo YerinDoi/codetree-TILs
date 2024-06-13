@@ -10,6 +10,6 @@ public class Main {
         if(a>=10 && a<=20)
             System.out.println("yes");
         else
-            System.out.println("no")
+            System.out.println("no");
     }
 }
