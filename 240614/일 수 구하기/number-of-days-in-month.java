@@ -14,7 +14,7 @@ public class Main {
             }
             else
                 System.out.println("20");
-        else{
+        else
             if(n % 2 == 0)
                 System.out.println("31");
             else
