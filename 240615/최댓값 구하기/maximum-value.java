@@ -16,9 +16,11 @@ public class Main {
             else
                 System.out.println(c);
         }
+        else{
             if(b >= c)
                 System.out.println(b);
             else
                 System.out.println(c)
+        }
     }
 }
