@@ -18,11 +18,11 @@ public class Main {
                 System.out.println(a);
 
         }
-        else {
-            if(a > c)
-                System.out.println(a);
-            else if(b > c)
+        else { b > a
+            if(c > b)
                 System.out.println(b);
+            else if(a > c)
+                System.out.println(a);
             else
                 System.out.println(c);
         }
