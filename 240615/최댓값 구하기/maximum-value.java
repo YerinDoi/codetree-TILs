@@ -10,15 +10,15 @@ public class Main {
         b = sc.nextInt();
         c = sc.nextInt();
 
-        if(a > b) {
-            if(a > c)
+        if(a >= b) {
+            if(a >= c)
                 System.out.println(a);
             else
                 System.out.println(c);
         }
-            if(b > c)
+            if(b >= c)
                 System.out.println(b);
             else
-                System.out.println(c);
+                System.out.println(c)
     }
 }
