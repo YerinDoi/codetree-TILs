@@ -5,11 +5,14 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
-        int sum = 0;
+        int a = 0, sum = 0;
 
         for(int i = 1; i <= n; i++) {
-            if(i % 2 == 1 && i % 3 == 0) {
-                sum += i;
+            
+            a = sc.nextInt();
+            
+            if(a % 2 == 1 && a % 3 == 0) {
+                sum += a;
             }
         }
         System.out.println(sum);
