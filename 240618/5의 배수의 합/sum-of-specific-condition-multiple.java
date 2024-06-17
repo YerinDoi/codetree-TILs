@@ -7,7 +7,6 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int sum = 0;
-        int cnt = 0;
 
         if(a >= b) {
             for(int i = b; i <= a; i++) {
