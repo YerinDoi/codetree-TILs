@@ -8,13 +8,11 @@ public class Main {
         int b = sc.nextInt();
         int prod = 1;
 
-        int num = b / a;
-        int c = 1;
-
-        for(int i = 1; i <= num; i++) {
-            prod *= a;
-            c *= prod;
+        for(int i = 1; i <= b; i++) {
+            if (i % a == 0) {
+                prod *= i;
+            }
         }
-        System.out.println(c);
+        System.out.println(prod);
     }
 }
