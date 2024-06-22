@@ -6,9 +6,11 @@ public class Main {
 
         int n = sc.nextInt();
         int cnt = 0;
+        int i = 1;
 
-        for(int i = 1; 1 < n; i++) {
+        while(n > 1) {
             n /= i;
+            i++;
             cnt++;
         }
         System.out.println(cnt );
