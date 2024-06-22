@@ -6,16 +6,11 @@ public class Main {
 
         int n = sc.nextInt();
         int cnt = 0;
-        int a;
 
-        for(int i = 1; i > 0; i++) {
-
+        for(int i = 1; i <= n; i++) {
             n /= i;
-
-            if(n <= 1)
-                break;
-            else
+            cnt++;
         }
-        System.out.println(cnt);
+        System.out.println(cnt + 1);
     }
 }
