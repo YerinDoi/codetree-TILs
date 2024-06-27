@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        double sum = 0;
+        int sum = 0;
         int n = 0;
 
         while(true) {
@@ -17,6 +17,6 @@ public class Main {
             else
                 break;
         }
-        System.out.printf("%.2f", sum / n);
+        System.out.printf("%.2f", (double)sum / n);
     }
 }
