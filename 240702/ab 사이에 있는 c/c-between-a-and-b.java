@@ -6,9 +6,10 @@ public class Main {
 
         int a = sc.nextInt();
         int b = sc.nextInt();
+        int c = sc.nextInt();
 
         for(int i = a; a <= b; i++) {
-            if(i % 2 == 0)
+            if(i % c == 0)
                 break;
         }
         System.out.println("YES");
