@@ -7,11 +7,15 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
+        boolean satisfied = false;
 
-        for(int i = a; a <= b; i++) {
+        for(int i = a; i <= b; i++) {
             if(i % c == 0)
-                break;
+                satisfied = true;
         }
-        System.out.println("YES");
+        if(satisfied == true)
+            System.out.println("YES");
+        else
+            System.out.println("NO");
     }
 }
